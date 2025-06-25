@@ -32,7 +32,7 @@ export default function AnimatedHello() {
           </motion.span>
         </AnimatePresence>
       </div>
-      <span className="whitespace-nowrap">I'm Ezequiel</span>
+      <span className="whitespace-nowrap"> I&apos;m Ezequiel</span>
       <span className="ml-1">👋</span>
     </div>
   );
