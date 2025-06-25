@@ -20,7 +20,7 @@ export default function Experience() {
     },
     {
       role: "Internship Developer",
-      company: "Innovacode",
+      company: "INNOVACODE",
       description:
         "Supported the team by developing frontend components with React and JavaScript, debugging issues, and enhancing user experience. I learned agile processes, and the basis on web development.",
     },
