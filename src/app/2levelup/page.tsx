@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+/* eslint-disable react/no-unescaped-entities */
 import NavbarComp from "../navbar";
 import Footer from "../footer";
 
@@ -30,7 +32,7 @@ export default function TwoLevelUpPage() {
             <div className="mb-16">
               <h2 className="text-3xl font-bold mb-6 text-center">Coming Soon</h2>
               <p className="text-center text-gray-400 mb-12 max-w-2xl mx-auto">
-                We're working on some exciting apps that will be available soon. Stay tuned for updates!
+                We&apos;re working on some exciting apps that will be available soon. Stay tuned for updates!
               </p>
             </div>
 

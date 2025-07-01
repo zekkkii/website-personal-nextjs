@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function Resume() {
   return (
     <section
@@ -5,7 +6,7 @@ export default function Resume() {
       className="bg-gray-900 text-white py-16 px-6"
     >
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-8">Founder's Background</h2>
+        <h2 className="text-4xl font-bold mb-8">Founder&apos;s Background</h2>
 
         <div className="bg-zinc-800 p-8 rounded-lg mb-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
@@ -34,7 +35,7 @@ export default function Resume() {
         </div>
 
         <p className="max-w-2xl mx-auto text-gray-300 mb-8">
-          Interested in learning more about the founder's professional background and technical expertise? 
+          Interested in learning more about the founder&apos;s professional background and technical expertise? 
           Download the detailed resume below.
         </p>
         

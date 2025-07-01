@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function Contact() {
   return (
     <section
@@ -6,9 +7,9 @@ export default function Contact() {
     >
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">Let's Work Together</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6">Let&apos;s Work Together</h2>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Have a project in mind? Let's discuss how we can bring your ideas to life.
+            Have a project in mind? Let&apos;s discuss how we can bring your ideas to life.
           </p>
         </div>
 
@@ -56,7 +57,7 @@ export default function Contact() {
             </div>
 
             <div className="mt-8 p-6 bg-black rounded-lg">
-              <h4 className="font-semibold mb-3 text-cyan-400">What I'm Looking For</h4>
+              <h4 className="font-semibold mb-3 text-cyan-400">What I&apos;m Looking For</h4>
               <ul className="space-y-2 text-gray-300 text-sm">
                 <li>• Web application development</li>
                 <li>• Small to medium-sized projects</li>

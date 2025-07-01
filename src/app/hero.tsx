@@ -1,5 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
 import { FaAnglesDown } from "react-icons/fa6";
-import AnimatedHello from "./animated_hello";
 
 export default function Hero() {
   return (
