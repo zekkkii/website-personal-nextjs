@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import {
   Disclosure,
   DisclosureButton,
@@ -6,11 +7,9 @@ import {
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "about", href: "#about", current: false },
-  { name: "Technologies", href: "#technologies", current: false },
-  { name: "Experience", href: "#experience", current: false },
-  { name: "Download Resume", href: "#resume", current: false },
+  { name: "Home", href: "/", current: true },
+  { name: "Apps", href: "/2levelup", current: false },
+  { name: "About", href: "/about", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -37,12 +36,17 @@ export default function NavbarComp() {
               />
             </DisclosureButton>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-            <h1 className="flex items-center">
-              <strong>Ezequiel Vasquez</strong>
-            </h1>
-            <div className="hidden sm:ml-6 sm:block">
-              <div className="flex space-x-4">
+          <div className="flex flex-1 items-center justify-between">
+            <div className="flex items-center space-x-4">
+              <img
+                src="/2levelup-img.png"
+                alt="2LevelUp Logo"
+                className="h-12 w-auto"
+              />
+              <div className="hidden sm:block">
+                <h1 className="text-xl font-bold text-white">2LevelUp</h1>
+              </div>
+              <div className="hidden sm:flex space-x-6">
                 {navigation.map((item) => (
                   <a
                     key={item.name}
